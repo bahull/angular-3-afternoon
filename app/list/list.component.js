@@ -13,11 +13,11 @@ angular.module("swagShop").component("list", {
     };
 
     this.alertCart = function(item) {
-      let count = 0;
-      if (count < 1) {
-        cartSrvc.alertCartItems(item);
-      }
-      count++;
+      // let count = 0;
+      // if (count < 1) {
+      cartSrvc.alertCartItems(item);
+      // }
+      // count++;
     };
   }
 });
